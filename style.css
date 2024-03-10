@@ -153,6 +153,54 @@ h2.tenyears-experience {
   font-weight: 500px;
   color:#FFFFFF;
 }
+/* skill-section */
+.skill-heading{
+  font-size: 45px;
+  font-weight: 700px;
+  color:#727272;
+}
+.skill-description{
+  font-size: 20px;
+  font-weight: 400;
+  color:#727272;
+}
+.skill-review {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ 
+  margin:100px 0px;;
+}
+.skill-pier{
+  border:1px solid tomato;
+  text-align: center;
+  padding:45px;
+  margin:45px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.skill-icon.skill-number.award-winning{
+  padding:40px;
+}
+.skill-number{
+  font-size: 45px;
+  font-weight: 600;
+  color:#727272;
+}
+.award-winning{
+  font-size: 20px;
+  font-weight: 600;
+  color:#727272;
+}
+
+
+
+
+
+
+
+
+
+
 /* responsive media query */
 /* Mobile devices */
 @media  screen and (max-width:576px) {
