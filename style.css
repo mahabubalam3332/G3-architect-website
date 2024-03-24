@@ -157,7 +157,6 @@ h2.tenyears-experience {
 .skill-heading{
   font-size: 45px;
   font-weight: 700px;
-  color:#727272;
 }
 .skill-description{
   font-size: 20px;
@@ -191,7 +190,44 @@ h2.tenyears-experience {
   font-weight: 600;
   color:#727272;
 }
-
+/* advertise- section */
+.advertise-top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.advertise-title{
+  font-size: 45px;
+  font-weight: 700px;
+}
+.advertise-description{
+  font-size: 20px;
+  font-weight: 400;
+  color:#727272;
+}
+.advertise-items{
+  display: grid;
+ grid-template-columns: repeat(4,1fr);
+ padding:5px;
+}
+.advertise-items img {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  opacity: 0.05;
+  color:#727272;
+}
+/* footer-section */
+.content-footer{
+  background-color: #FFF4E7;
+  margin:110px 240px; 
+  border-radius: 5px;
+}
+.footer-content p{
+  text-align: center;
+  padding:40px 410px;
+}
 
 
 
@@ -247,6 +283,19 @@ h2.tenyears-experience {
   .skill-review {
     grid-template-columns: repeat(2,1fr);
   }
+  .advertise-items {
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* footer */
+  .content-footer{
+    margin:5px 5px; 
+    border-radius: 5px;
+  }
+  .footer-content p{
+    text-align: center;
+    padding:30px 10px;
+    font-size: 25px;
+  }
 }
 
 /* tablet or medium devices */
@@ -286,5 +335,15 @@ h2.tenyears-experience {
   }
   .skill-review {
     grid-template-columns: repeat(2,1fr);
+  }
+  /* footer */
+  .content-footer{
+    margin:5px 5px; 
+    border-radius: 5px;
+  }
+  .footer-content p{
+    text-align: center;
+    padding:50px 10px;
+    font-size: 20px;
   }
 }
