@@ -281,7 +281,7 @@ h2.tenyears-experience {
   }
   /* sills  */
   .skill-review {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
   }
   .advertise-items {
     grid-template-columns: repeat(2,1fr);
